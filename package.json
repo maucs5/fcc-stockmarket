@@ -1,0 +1,30 @@
+{
+  "name": "fcc-stockmarket",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp Stock Market",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maucs5/fcc-stockmarket"
+  },
+  "keywords": [
+    "MongoDB",
+    "Mongoose",
+    "full stack",
+    "Express",
+    "Node",
+    "javascript",
+    "boilerplate"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Mau Chee Seng",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.12.4",
+    "express-ws": "^3.0.0",
+    "request": "^2.81.0"
+  }
+}
