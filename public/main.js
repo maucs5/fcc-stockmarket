@@ -20,7 +20,7 @@ $(document).ready(function() {
   }
   var chart = null;
 
-  var sock = new WebSocket("ws://localhost:8080/")
+  var sock = new WebSocket("ws://"+location.host)
 
   var content = $('.content')
 
